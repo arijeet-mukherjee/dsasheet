@@ -27,7 +27,7 @@ arijeet\
 | - README.md
 | - Makefile       # or the specific specification/requirements/configuration file
 | - src\
-    | - main.ext
+    | - programname\main.ext
 ```
 
 #### `.gitignore` File
