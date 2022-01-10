@@ -34,8 +34,6 @@ arijeet\
 
 ```gitignore
 # add all output files and build files to be excluded from git tracking
-main     # executable file also must have the project name
-target/  # the build file, for example for rust
 ```
 
 #### Build File / Specification File / Configuration File
