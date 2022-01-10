@@ -59,3 +59,5 @@ Again, the source codes must conform to a valid file structure convention that t
 @emmyari
 @cypherpoll-0
 @Mykiiii
+
+**git remote add origin https://github.com/emmyari/dsasheet.git add this to remote**
