@@ -1,0 +1,5 @@
+package ProblemTwo;
+
+class Solution {
+    
+}

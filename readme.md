@@ -58,9 +58,23 @@ Again, the source codes must conform to a valid file structure convention that t
 @cypherpoll-0
 @Mykiiii
 
+**For First Time run below two commands in your local machine project directory**
+
 ```
     git clone   https://github.com/emmyari/dsasheet.git
     git remote add origin https://github.com/emmyari/dsasheet.git 
 
 ```
-**add this to remote**
+
+**After cloning & adding remote origin. You can start editing your folder**
+**Run below commands to push your changes**
+
+```
+    git pull
+    git add .
+    git status
+    git commit -m "Your message goes here"
+    git branch -M main 
+    git push
+
+```
