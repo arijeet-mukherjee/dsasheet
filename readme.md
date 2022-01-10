@@ -61,7 +61,7 @@ Again, the source codes must conform to a valid file structure convention that t
 **For First Time run below two commands in your local machine project directory**
 
 ```
-    git clone   https://github.com/emmyari/dsasheet.git
+    git clone https://github.com/emmyari/dsasheet.git
     git remote add origin https://github.com/emmyari/dsasheet.git 
 
 ```
