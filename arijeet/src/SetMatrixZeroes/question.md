@@ -6,9 +6,9 @@ You must do it in place.
  
 
 Example 1:
-
+    ![Alt text](https://assets.leetcode.com/uploads/2020/08/17/mat1.jpg?raw=true)
 ```
-    ![Alt text](https://assets.leetcode.com/uploads/2020/08/17/mat1.jpg?raw=true "Title")
+    
     Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
     Output: [[1,0,1],[0,0,0],[1,0,1]]
 
