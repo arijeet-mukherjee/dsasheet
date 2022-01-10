@@ -5,18 +5,24 @@ You must do it in place.
 
  
 
-Example 1:
-    ![Alt text](https://assets.leetcode.com/uploads/2020/08/17/mat1.jpg?raw=true)
+**Example 1:**
+
+
+![Alt text](https://assets.leetcode.com/uploads/2020/08/17/mat1.jpg?raw=true)
+
+
 ```
     
     Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
     Output: [[1,0,1],[0,0,0],[1,0,1]]
 
 ```
-Example 2:
+**Example 2:**
+
+![Alt text](https://assets.leetcode.com/uploads/2020/08/17/mat2.jpg?raw=true)
+
 
 ```
-    <img src="https://assets.leetcode.com/uploads/2020/08/17/mat2.jpg">
     Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
     Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 
