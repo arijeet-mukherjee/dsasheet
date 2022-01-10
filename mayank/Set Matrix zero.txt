@@ -1,0 +1,30 @@
+class Solution {
+    public void setZeroes(int[][] m) { 
+        int r = m.length; int c = m[0].length;
+        
+        int [] rc = new int [r];
+        int [] lc = new int [c];
+        
+        for(int i = 0; i<r; i++){
+            for(int j =0; j<c; j++){
+                int cur = m[i][j];
+                
+                if(cur == 0){
+                    rc[i] = 1;
+                    lc[j] =1;
+                }
+            } 
+        }
+        
+        for(int i = 0; i<r; i++){
+            for(int j =0; j<c; j++){
+                int cur = m[i][j];
+                
+                if(rc[i]==1) m[i][j]=0;
+                if(lc[j]==1) m[i][j]=0;
+                
+            }
+        }
+        
+    }
+}
