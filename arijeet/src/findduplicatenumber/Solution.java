@@ -1,4 +1,4 @@
-package findduplicatenumber;
+package FindDuplicateNumber;
 import java.util.*;
 
 class Solution {
