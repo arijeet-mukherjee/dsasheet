@@ -1,5 +1,6 @@
 package FindNextPermutation;
-
+import java.util.*;
+import java.util.stream.Collectors;
 public class Solution {
 
     public static void nextPermutation(int[] nums) {
@@ -50,14 +51,16 @@ public class Solution {
             start++;
             end--;
         }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
-        }
+        
+        List<Integer> nxtPermutation=new ArrayList<Integer>();
+        Collections.addAll(nxtPermutation,Arrays.stream(arr).boxed().toArray(Integer[]::new));
+
+        System.out.println(nxtPermutation.toString());
 
     }
 
     public static void main(String[] args) {
-        nextPermutation(new int[] { 1, 2, 3 });
+        nextPermutation(new int[] { 1, 3, 5, 4, 2 });
        // reverse(new int[] { 1, 2, 3 }, 1, 2);
     }
     

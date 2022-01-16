@@ -1,4 +1,5 @@
-**Print Pascal Traingle**
+**Print Next permutation**
+
 Given an integer ```numRows```, return the first numRows of Pascal's triangle.
 
 Implement **next permutation**, which rearranges numbers into the lexicographically next greater permutation of numbers.
