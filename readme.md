@@ -55,8 +55,6 @@ Again, the source codes must conform to a valid file structure convention that t
 ## Contributors
 
 @emmyari
-@cypherpoll-0
-@Mykiiii
 
 **For First Time run below two commands in your local machine project directory**
 
