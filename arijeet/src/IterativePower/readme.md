@@ -1,0 +1,1 @@
+compute the x^N using iteration
